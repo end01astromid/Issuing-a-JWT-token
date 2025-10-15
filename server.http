@@ -1,0 +1,18 @@
+### Регистрация пользователя
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "name": "Kolyag",
+  "login": "girls71",
+  "password": "123456"
+}
+
+### Авторизация пользователя
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "login": "girls71",
+  "password": "123456"
+}
